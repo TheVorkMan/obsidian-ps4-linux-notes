@@ -14,5 +14,6 @@ jobs:
           curl -X POST \
             -H "Authorization: Bearer ${{ secrets.REPO_DISPATCH_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
-            https://api.github.com/repos/OWNER/SITE_REPO/dispatches \
+            https://api.github.com/repos/TheVorkMan/ps4-linux-notes/dispatches \
             -d '{"event_type":"content-updated"}'
+
