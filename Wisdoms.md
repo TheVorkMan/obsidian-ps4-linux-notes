@@ -33,3 +33,13 @@ Need to test it on debian..."
 
 Dionkill:
 "(NFS MW 2005) i think it should work via lutris / bottles, you need to reinstall the game on the system (can't use a preinstalled version for some reason), and you need to use proton 8 or something like that"
+
+Regarding GPU Resets that hang the PS4:
+`isaacmv` and `mircoho`
+"Do you know if that's a mesa thing or kerel thing?"
+"both, if mesa is running well and correctly patched it would not happen, and if kernel 100% right setting for gpu reset, it should work too
+On Aeolia no problem though." That means, it's an issue on Belize?
+
+"The 25.1 manjaro doesn't provide ACO nor compatibility with dxvk 2.7"
+"is do testing with mesa-25.0.2-rc3"
+"25.2 frezzes for me while using dxvk"
