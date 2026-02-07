@@ -5,7 +5,7 @@
 Check:
 `ls /var/log/journal`
 If none, make:
-`sudo mkdir -p /var/log/journal
+`sudo mkdir -p /var/log/journal`
 `sudo systemctl restart systemd-journald`
 
 `journalctl -b -1 -k`
