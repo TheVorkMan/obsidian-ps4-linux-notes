@@ -1,10 +1,10 @@
 #### This is my saved texts that I think will be useful for others.
 
-"Tierlist" by erkkl:
+"Tierlist" by @erkki_69_men.com:
 ![[ps4linux_tierlist.webp]]
 
 
-saya:
+@saya0137:
 "- Then... the high versions of Mesa on PS4... won't give you much on PS4 Linux...
 
  OpenGL shows 40% of the register gains included in the bzImage kernel. 
@@ -26,10 +26,10 @@ Gamescope has issues?
 Steam overlay doesn't work good with wayland when steam client is in big picture and fullscreened.
 To compile it, you need to use linux, if ps4 hangs - use different machine, you can compile it with WSL2 btw. Compile mesa-ps4 first, install it, then compile the lib32-mesa-ps4. Use this: https://github.com/DionKill/ps4-video-archlinux
 Mesa 25.1 and higher require libdrm 124
-It doesn't affect the hanging though as I think
+It doesn't affect the hanging though I think
 Proton Experimental on sleeping dogs has some magical abilities?
 Need to test it on debian..."
 
 
-Dionkill:
+@dionkill:
 "(NFS MW 2005) i think it should work via lutris / bottles, you need to reinstall the game on the system (can't use a preinstalled version for some reason), and you need to use proton 8 or something like that"
