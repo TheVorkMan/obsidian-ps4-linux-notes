@@ -1,4 +1,4 @@
-#### This is my saved texts that I think will be useful for others.
+#### Here is my saved texts that would be useful for others.
 
 "Tierlist" by @erkki_69_men.com:
 ![[ps4linux_tierlist.webp]]
