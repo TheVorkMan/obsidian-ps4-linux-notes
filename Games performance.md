@@ -1,12 +1,13 @@
 # PC Games
 
-| Status, Game                       | Platform                   | Notes                                       | Problems     | FPS     |
-| ---------------------------------- | -------------------------- | ------------------------------------------- | ------------ | ------- |
-| ⛔ Need for Speed: Most Wanted 2005 | Windows                    | Using Proton, DXVK, Mesa 26, Widescreen mod | Hangs system | 50 - 55 |
-| ✅ Castle Crushers                  | Windows (has Linux native) | Using Proton, DXVK, Mesa 26                 | Perfect      | 60      |
-| ✅ Half-life                        | Native                     | OpenGL                                      | Perfect      | 100     |
-| ✅ Buckshot Roulette                | Native                     | Vulkan                                      | Perfect      | 60      |
-| WIP                                | WIP                        | WIP                                         | WIP          | WIP     |
+| Status, Game                       | Platform                   | Notes                               | Problems                                          | FPS |
+| ---------------------------------- | -------------------------- | ----------------------------------- | ------------------------------------------------- | --- |
+| ⛔ Need for Speed: Most Wanted 2005 | Windows                    | Using latest Proton, Widescreen mod | Crashes GPU driver                                | 70  |
+| ✅ Castle Crushers                  | Windows (has Linux native) | Using Proton, DXVK, Mesa 26         | Perfect                                           | 60  |
+| ✅ Half-life                        | Native                     | OpenGL                              | Perfect                                           | 100 |
+| ✅ Buckshot Roulette                | Native                     | Vulkan                              | Perfect                                           | 60  |
+| ⭕ Minecraft                        | Native                     | On 1.21.6+ use Vulkan mod           | OpenGL glitches, Vulkan mod crashes on newer Mesa | 60  |
+| WIP                                | WIP                        | WIP                                 | WIP                                               | WIP |
 
 # Emulator performance overview:
 
