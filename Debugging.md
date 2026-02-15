@@ -5,3 +5,6 @@
 `export DXVK_LOG_PATH=~/dxvk_logs`
 
 `ls ~/dxvk_logs`
+
+## Klog
+https://consolemods.org/wiki/PS4:FAQ#How_can_I_get_Klogs?
