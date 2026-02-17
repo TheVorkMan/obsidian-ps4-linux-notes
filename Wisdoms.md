@@ -41,5 +41,4 @@ On Aeolia no problem though." That means, it's an issue on Belize?
 
 "The 25.1 manjaro doesn't provide ACO nor compatibility with dxvk 2.7"
 "is do testing with mesa-25.0.2-rc3"
-"25.2 frezzes for me while using dxvk"
 

@@ -1,6 +1,6 @@
 ## Patch for disabling sr0 (Blu-Ray drive)
 Use this on initramfs you want to patch
-```
+```bash
 #!/bin/sh
 set -e
 
@@ -47,7 +47,7 @@ echo "Patched successfully."
 ```
 
 ## What to expect from further development
-Right now, we are using solution that hurts GPU on Belize and some changes are necessary.
+Right now, we are using solution that hurts GPU (?) on Belize and some changes are necessary.
 As @idemetris found out, you can use vanilla Mesa and libdrm, and just patch kernel, with different GPU code for Belize 0x9924 GPU (it's being the Polaris10 instead of Gladius).
 Right now, this is doubtable, and testing is being done.
 @idemetris:
@@ -57,7 +57,8 @@ Right now, this is doubtable, and testing is being done.
 `Will work 💯 as it is`
 
 `In theory you can use the Polaris firmware blobs as well and all driver capabilities will be open. If those doesn't work you need to disable two specific functions in the driver that sony blobs don't support`
-```
+
+```diff
 From 8fe8a46ac4ffbcecdb5ca10f1ad3a09fdf2392a3 Mon Sep 17 00:00:00 2001
 From: Demetris Ierokipides <ierokipides.dem@gmail.com>
 Date: Sat, 14 Feb 2026 00:54:22 +0200
@@ -84,13 +85,3 @@ index 7333e1929..0ec9cf05b 100644
 
 ```
 `this is for 6.18.x lts kernel`
-```
-meson setup build/ \
-    -Dbuildtype=release \
-    -Db_lto=true \
-    -Dc_args="-O3 -march=btver2 -mtune=btver2" \
-    -Dcpp_args="-O3 -march=btver2 -mtune=btver2" \
-    -Dgallium-drivers=radeonsi \
-    -Dvulkan-drivers=amd \
-    -Dllvm=enabled
-```
