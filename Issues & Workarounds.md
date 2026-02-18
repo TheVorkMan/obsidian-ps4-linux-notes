@@ -16,3 +16,8 @@ An example `dmesg` output when driver crashes (with `amdgpu.lockup_timeout=20000
 [  238.672565] amdgpu 0000:00:01.0: amdgpu: GPU recovery disabled.
 ```
 
+### DS4 changes keys after reconnecting to PS4 system
+You can try to disable `ClassicBondedOnly` option in Bluetooth service config.
+- Go to `/etc/bluetooth/input.conf`
+- Add `ClassicBondedOnly=false`
+- Restart bluetooth - `sudo systemctl restart bluetooth`
