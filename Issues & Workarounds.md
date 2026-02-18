@@ -20,4 +20,4 @@ An example `dmesg` output when driver crashes (with `amdgpu.lockup_timeout=20000
 You can try to disable `ClassicBondedOnly` option in Bluetooth service config.
 - Go to `/etc/bluetooth/input.conf`
 - Add `ClassicBondedOnly=false`
-- Restart bluetooth - `sudo systemctl restart bluetooth`
+- Restart bluetooth: `sudo systemctl restart bluetooth`
