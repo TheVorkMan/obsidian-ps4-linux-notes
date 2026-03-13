@@ -37,3 +37,11 @@ index 7333e1929..0ec9cf05b 100644
 
 ```
 `this is for 6.18.x lts kernel`
+
+### Why Baikal southbridge doesn't have kernels above 5.14?
+It does, infact. But they all have regression for Baikal chips - it breaks USB bus, which is required for every perhipal to work, including internal HDD (it works on USB too...)
+
+There's 6.14 compiled for Baikal, just, they are not for regular usage, it can fit PS4 that acts like a server without requiring any input besides SSH on an already setup system.
+You can find them in Tux4Orbis discord server.
+
+So, until USB is fixed in latest kernels, you should use 5.14 for a general purpose Desktop.

@@ -12,7 +12,6 @@ It has:
 - Etc., etc.
 
 ### Guides section:
-
 #### Various Linux terms
 [[1. Important knowledge]]
 #### Discover links for different resources, kernels and distributions.
@@ -21,7 +20,8 @@ It has:
 [[3. Troubleshooting]]
 #### For general blackscreen (led changed, no output) issues go here:
 [[4. Blackscreen Troubleshooting]]
-
+#### For common linux problems (like Arch's `Landlock is not supported`):
+[[6. Common Linux issues]]
 # YOU! can contribute to this resource!
 How? Download [Obsidian](https://obsidian.md/download), Fork [Obsidian vault of ps4-linux-notes](https://github.com/TheVorkMan/obsidian-ps4-linux-notes/tree/main), edit it, and make a Pull Request with your addition. Simple as that.
 
