@@ -23,12 +23,12 @@ Or just with`nc -v YOUR_PS4_IP_ADDRESS 3232`
 
 ## SSH
 This allows you to access console remotely, and also works when GPU driver crashes.
-1. Enable `sshd`
+1. Enable `sshd`. It will be also load on every startup
 ```sh
 systemctl enable --now sshd
 ```
 2. Go to `PuTTY` and enter your IP address and port `22` to access it remotely.
-   It will be also load on every startup
+   
 3. *Or use Linux*, `ssh YOURUSERONPS4@your_ps4_address`
 ## Journalctl
 This will output full journal from the end (`-b`) and follows with the changes (`-f`). 
