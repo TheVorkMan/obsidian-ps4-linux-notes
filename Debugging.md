@@ -21,7 +21,7 @@ journalctl -b -f
 2. Use a separate device to gather the logs.
 #### Netcat - Multiplatform
 0. **Linux:** Check if `netcat` installed on your distribution.
-   **Windows:** Download and install Nmap - https://nmap.org/download.html
+   **Windows:** Download and install Nmap - [`nmap` Setup](https://nmap.org/dist/nmap-7.99-setup.exe)
 1. **Linux:** Go in terminal and execute: `nc -v PS4_IP 3232`
    **Windows:** Go in CMD and execute `ncat -v PS4_IP 3232`
 #### PuTTY for Windows:
